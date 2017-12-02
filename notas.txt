@@ -1,0 +1,44 @@
+ESTA POR CONSOLA, DESKTOP Y WEB
+
+USARE CONSOLA, LUEGO DESKTOP
+
+-en consola, usamos git cmd, 
+
+1. git es un sistema de control de versiones nos registra los cambios realizados en un archivo o conjunto de archivos
+ 
+ventajas: 
+- regresar a versiones anteriores para verificar los errores
+- se usan commits: 
+
+		Estados en GIT: 
+working directory: 	habrimos el editor de codigo
+stagin area: 		definir q archivos estan listos y que no
+repository:		guardar todo DE NUESTO PROYECTO en commits
+
+en gerenal editar, elegir cuales estan listos y guardar
+
+
+paso 1: 
+-- poner nuestro nombre en git
+en la cmd de git (git cmd) -> git config --global user.name "alex"
+-- poner correo
+git config --global user.email "alexander.prado77@yahoo.es"
+-- para configurar colores
+git config --global color.ui true
+
+
+paso 2: monitorear el proyecto
+definimos 1ro donde se va a monitorear
+C:\Users\user\Documents\docs alex\programas\programacion\GitHub\Curso de GitHub> git init 
+y asi comiensa a monitorear 
+despues para el estado y ver si han sido agregados o no al reposito..
+-> git status    ...en rojo no se ha agregado:
+luego lo podemos agregar, para luego poder hacer el commit
+--> git add -A    		.. para agregar todo lo de ese directorio
+--> git add index.html		.. si queremos un archivo en especifico: 
+
+
+
+
+
+
